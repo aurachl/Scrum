@@ -33,7 +33,50 @@ flowchart TB
 ---
 
 >## Concepts 🔧
-#### Scrum
+### Values of The Agile Manifesto
+1. Individuals and Interactions Over Processes and Tools
+2. Working Software Over Comprehensive Documentation
+3. Customer Collaboration Over Contract Negotiation
+4. Responding to Change Over Following a Plan
+
+### Scrum Team
+`Must not be more than 10 people` ❌
+
+`Everyone have their own accountability` ✅
+
+`There's no hierarchy` 🆙
+
+```python
+class Team:
+    def __init__(Role1): 🎯
+        role1.name = "Product Owner" 
+        role1.task = "What to build?"
+        role1.supports = "Understanding client's needs"
+    def __init__(Role2): ⏰
+        role2.name = "Scrum Master" 
+        role2.task = "Delivers on time"
+        role2.supports = "Continuous improvement"
+    def __init__(Role3): 🏭
+        role3.name = "Developer" 
+        role3.task = "How to build it?"
+        role3.supports = "Team multi-functional and auto-managed"
+```
+### Events
+- Sprint 4 weeks or less 📆
+- Meetings ➡️ Inspection ➡️ Adapt and Define
+- Daily short meetings monitoring progress 📌
+
+### Scrum Values
+```mermaid
+  graph TD;
+      Respect-->Courage;
+      Respect-->Openness;
+      Respect-->Commitment;
+      Respect-->Focus;     
+```
+
+
+
 ---
 
 >## Implementation 📊
