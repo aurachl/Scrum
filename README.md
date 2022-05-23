@@ -39,7 +39,7 @@ flowchart TB
 3. Customer Collaboration Over Contract Negotiation
 4. Responding to Change Over Following a Plan
 
-### Scrum Team
+### Team
 `Must not be more than 10 people` ❌
 
 `Everyone have their own accountability` ✅
@@ -66,7 +66,7 @@ class Team:
 - Meetings ➡️ Inspection ➡️ Adapt and Define
 - Daily short meetings monitoring progress 📌
 
-### Scrum Values
+### Values
 ```mermaid
   graph TD;
       Respect-->Courage;
@@ -74,20 +74,43 @@ class Team:
       Respect-->Commitment;
       Respect-->Focus;     
 ```
+### Artifacts
+### Product Backlog 📄
+`What we want to build?`
+> The product backlog is an ordered list of everything that is known to be needed in a product based on the product goal. It is constantly evolving and is never complete.
 
+### Sprint Backlog 📋
+`How we gonna build it?`
+> The sprint backlog is a list of everything that the team commits to achieve in a given sprint. Once created, no one can add to the sprint backlog except the development team. 
 
-
+### Potentially Releasable Product Increment 📱
+`Definitions of done!`
+> At the end of every sprint, the team delivers a product increment that is potentially releasable, meaning that it meets their agreed-upon definition of done. 
 ---
 
 >## Implementation 📊
-#### Scrum
+<h3 align="center"> 3-5-3 </h3>
+<h3 align="center"> 3 Roles ➡️ 5 Events ➡️ 3 Artifacts </h3>
+
+![imagen](https://user-images.githubusercontent.com/103008984/169727279-89703274-35a0-4ee4-a1f8-25fa80626139.png)
 ---
 
 >## Conclusions 📂
-#### Scrum
+> Scrum is a fine-detailed approach that has specific roles and ceremonies for each step of the process. The benefits of this type of approach include:
+>> Increased transparency and project visibility 🔍
+>> 
+>> Accountability across teams 👥
+>> 
+>> Additional room for changes 🎯
+>> 
+>> Savings in cost 💰
+
+> Scrum is best used in a project that is meant to be easy and flexible, but also is defined enough to achieve goals and hit targets that the customer or stakeholder designates
+>> Is defined by sprints, so it is best leveraged in a project that benefits from the constant re-evaluation of goals, tasks, and roles of the team. 💬
+>> 
+>> Has a set of prescribed roles that allow structure to the project, yet has room for a shifting of assignments based on the timelines that evolve out of the process. ⌚
 ---
 
->## Certificate 🎓
 
 
 
